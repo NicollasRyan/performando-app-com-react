@@ -1,12 +1,12 @@
 module.exports = () => {
   const data = {
-    produts: [],
+    products: [],
   };
 
-  for (let i = 0; 1 < 1000; i++) {
-    data.produts.push({
+  for (let i = 0; i < 1000; i++) {
+    data.products.push({
       id: i + 1,
-      peice: 80,
+      price: 80,
       title: `Camiseta ${i + 1}`,
     });
   }
