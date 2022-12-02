@@ -256,7 +256,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.25":
+"@types/react@npm:*":
   version: 18.0.25
   resolution: "@types/react@npm:18.0.25"
   dependencies:
@@ -267,7 +267,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17":
+"@types/react@npm:17, @types/react@npm:^17":
   version: 17.0.52
   resolution: "@types/react@npm:17.0.52"
   dependencies:
@@ -2480,7 +2480,7 @@ __metadata:
   resolution: "performando-app@workspace:."
   dependencies:
     "@types/node": 18.11.9
-    "@types/react": 18.0.25
+    "@types/react": 17
     "@types/react-dom": 18.0.9
     "@types/react-virtualized": ^9.21.21
     eslint: 8.27.0
